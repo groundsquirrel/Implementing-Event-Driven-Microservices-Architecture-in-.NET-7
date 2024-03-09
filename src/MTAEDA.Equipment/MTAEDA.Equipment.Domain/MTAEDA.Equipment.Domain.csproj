@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
@@ -22,6 +22,10 @@
     <Reference Include="MTAEDA.Core">
       <HintPath>..\..\..\..\..\..\..\..\code\libraries\net7.0\MTAEDA.Core.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MTAEDA.Core\MTAEDA.Core.csproj" />
   </ItemGroup>
 
 </Project>
